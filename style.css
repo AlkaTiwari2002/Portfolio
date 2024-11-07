@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #5a99d4; 
+    color: rgb(243, 107, 107);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    transition: color 0.1s;
+  
+     
+}
+
+nav ul li a:hover {
+    color: #ffdd57; 
+}
+
+section {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+section:hover {
+    transform: translateY(-5px); 
+}
+
+#home {
+    background: #e0f7fa;
+}
+
+#about {
+    background: #e1bee7;
+}
+
+#skills {
+    background: #c8e6c9; 
+}
+
+#education {
+    background: #ffe0b2;
+}
+
+#projects {
+    background: #bbdefb;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.project-card {
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px; 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center; 
+}
+
+.project-card:hover {
+    transform: translateY(-20px);
+    box-shadow: 30px 30px 50px rgb(98, 98, 245);
+}
+
+.project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #5a99d4; 
+}
+
+h1 {
+    font-size: 3em; 
+}
+
+h2 {
+    font-size: 2.5em; 
+    margin: 15px 0;
+    transition: font-weight 0.3s;
+}
+
+h2:hover {
+    font-weight: bold;
+}
+.candidate-img {
+    width: 400px;
+    height: 450px;
+    border-radius: 60%;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px burlywood;
+   
+}
+
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    background: rgba(255, 255, 255, 0.9); 
+    color: #333;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 30%; 
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #5a99d4;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px;
+    background: #5a99d4; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    width: 100%;
+    max-width: 150px;
+}
+
+button:hover {
+    background: #0077cc; 
+    transform: translateY(-2px);
+}
+
+.download-button {
+    padding: 10px 20px;
+    background:#0077cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.download-button:hover {
+    background: #e6c800;
+    transform: translateY(-2px);
+}
